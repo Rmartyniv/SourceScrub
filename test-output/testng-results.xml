@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-25T18:10:11 EET" name="Default suite" finished-at="2022-01-25T18:10:15 EET" duration-ms="4728">
+    <groups>
+    </groups>
+    <test started-at="2022-01-25T18:10:11 EET" name="Default test" finished-at="2022-01-25T18:10:15 EET" duration-ms="4728">
+      <class name="com.sourcescrub.dev.NegativLoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.sourcescrub.dev.NegativLoginTests@c33b74f]" started-at="2022-01-25T18:10:11 EET" name="setUp" finished-at="2022-01-25T18:10:13 EET" duration-ms="1870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@261ea657]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="negativeLogIn(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.sourcescrub.dev.NegativLoginTests@c33b74f]" started-at="2022-01-25T18:10:13 EET" name="negativeLogIn" finished-at="2022-01-25T18:10:15 EET" duration-ms="2654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[geobmx540]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prescott11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid username or password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sourcescrub.dev.NegativLoginTests@c33b74f]" started-at="2022-01-25T18:10:15 EET" name="tearDown" finished-at="2022-01-25T18:10:15 EET" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sourcescrub.dev.NegativLoginTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
