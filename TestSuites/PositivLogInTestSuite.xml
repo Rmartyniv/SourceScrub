@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PositiveLogInTestSuite" verbose="1">
+	
+	<test name="LoginTestOne">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.sourcescrub.dev.LoginTestOne" />
+		</classes>
+	</test>
+	
+	
+
+	<test name="LoginTestOneF">
+	<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.sourcescrub.dev.LoginTestOne" />
+		</classes>
+	</test>
+</suite>
